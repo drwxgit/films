@@ -43,7 +43,7 @@ def doInsertNew(iCur):
     regista = input("Regista? ");
     anno = int(input("Anno? "));
     genere = input("Genere? ");
-
+bla bla
     iCur.execute(INSERT_NEW, (titolo,attori,regista,anno,genere));
     for r in iCur.fetchall():
         print(r)
